@@ -43,7 +43,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #149ddd;
+  background: #040b14;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -388,6 +388,8 @@ section {
 .facts .count-box {
   padding: 30px;
   width: 100%;
+  box-shadow: 0px 0 10px rgba(5, 13, 24, 0.2);
+  border-radius: 15px;
 }
 
 .facts .count-box i {
@@ -469,6 +471,7 @@ section {
 /*--------------------------------------------------------------
 # Resume
 --------------------------------------------------------------*/
+
 .resume .resume-title {
   font-size: 26px;
   font-weight: 700;
