@@ -352,6 +352,25 @@ section {
   color: #173b6c;
 }
 
+.col-lg-4 {
+  /* Adicionando sombra */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  overflow: hidden; /* Garante que a sombra não vaze */
+  padding: 10px;
+}
+
+.col-lg-4 img {
+  /* Garante que a imagem preenche o contêiner */
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: transform 0.3s ease; /* Transição suave */
+}
+
+.col-lg-4:hover img {
+  transform: scale(0.95); /* Zoom suave ao passar o mouse */
+}
 .about .content ul {
   list-style: none;
   padding: 0;
@@ -562,7 +581,7 @@ section {
 
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
-  color: #149ddd;
+  color: #0a5273;
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -605,9 +624,9 @@ section {
   color: #fff;
   font-size: 28px;
   text-align: center;
-  background: rgba(20, 157, 221, 0.75);
+  background: #0a5273;
   transition: 0.3s;
-  width: 50%;
+  width: 100%;
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
